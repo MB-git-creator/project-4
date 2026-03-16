@@ -3,152 +3,383 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Лесная Усадьба</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="container header__wrapper">
-      <div class="logo">
-        <img src="#" alt="Лесная усадьба">
-      </div>
+  <div class="page">
+    <header class="header">
+      <div class="container header__wrapper">
+        <a href="#" class="logo">
+          <img src="./Logo.png">
+        </a>
 
-      <nav class="nav">
-        <a href="#">О нас</a>
-        <a href="#">Услуги</a>
-        <a href="#">Специалисты</a>
-        <a href="#">Контакты</a>
-      </nav>
+        <nav class="nav">
+          <a href="#about">О нас</a>
+          <a href="#services">Услуги</a>
+          <a href="#specialists">Специалисты</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
 
-      <div class="header__contact">
-        <div class="header__phone">
-          <span>Круглосуточно</span>
-          <a href="tel:+74959777736">+7 495 977 77 36</a>
+        <div class="header__right">
+          <div class="header__phone">
+            <span>Круглосуточно</span>
+            <a href="tel:+74959777735">+7 495 977 77 35</a>
+          </div>
+
+          <a href="#contacts" class="btn btn--green">Заказать звонок</a>
         </div>
-        <a href="#" class="btn">Заказать звонок</a>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__box">
+            <img class="hero__bg" src="./img.png">
 
-    <section class="hero">
-      <div class="container">
-        <div class="hero__box">
-          <div class="hero__content">
-            <p class="hero__small">Подмосковная резиденция</p>
-            <h1>“ЛЕСНАЯ УСАДЬБА”</h1>
-            <p class="hero__desc">Пансионат для пожилых премиум-класса</p>
+            <div class="hero__overlay"></div>
 
-            <div class="hero__bottom">
-              <div class="hero__item">
-                <span></span>
-                <p>Для тех, кто любит <br> своих родных и близких</p>
-              </div>
-              <div class="hero__item">
-                <span></span>
-                <p>Безопасная среда <br> и интересный досуг</p>
-              </div>
-              <div class="hero__item">
-                <span></span>
-                <p>Долгосрочные и краткосрочные <br> программы пребывания</p>
+            <div class="hero__content">
+              <p class="hero__subtitle">Подмосковная резиденция</p>
+              <h1>“ЛЕСНАЯ УСАДЬБА”</h1>
+              <p class="hero__text">Пансионат для пожилых премиум-класса</p>
+
+              <div class="hero__features">
+                <div class="hero__feature">
+                  <span></span>
+                  <p>Для тех, кто любит своих родных и близких</p>
+                </div>
+
+                <div class="hero__feature">
+                  <span></span>
+                  <p>Безопасная среда и интерактивный досуг</p>
+                </div>
+
+                <div class="hero__feature">
+                  <span></span>
+                  <p>Долгосрочные и краткосрочные программы пребывания</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="about section" id="about">
+        <div class="container about__wrapper">
+          <div class="about__content">
+            <h2>Мы стремимся создать для вас комфортные условия проживания</h2>
+            <p>
+              Загородный пансионат предлагает комфортное пространство для пожилых
+              людей и людей, нуждающихся в профессиональном уходе.
+            </p>
+            <p>
+              Мы помогаем людям с возрастными особенностями здоровья жить без
+              стресса и боли, сохраняя душевное равновесие и тёплые отношения с
+              близкими.
+            </p>
+          </div>
 
-    <section class="comfort-life">
-      <div class="container comfort-life__wrapper">
-        <div class="comfort-life__text">
-          <h2>Мы стремимся создать <br> для вас комфортные <br> условия проживания</h2>
-          <p>
-            Загородный пансионат предлагает комфортное пространство для пожилых
-            людей и клиентов после инвалидности для долговременного проживания.
-          </p>
-          <p>
-            Мы помогаем людям с возрастными особенностями сохранить ясность,
-            чувство равновесия и тёплые отношения с близкими.
-          </p>
+          <div class="about__image">
+            <img src="./img 2.png">
+          </div>
         </div>
+      </section>
+      <section class="advantages section">
+        <div class="container">
+          <div class="section-head section-head--center">
+            <h2>
+              Мы предлагаем уютные комнаты с удобной мебелью<br />
+              и всем необходимым для комфортного проживания
+            </h2>
+          </div>
 
-        <div class="comfort-life__image">
-          <img src="#" alt="Фото">
+          <div class="advantages__wrapper">
+            <div class="advantages__gallery">
+              <div class="advantages__photo advantages__photo--small">
+                <img src="./kartinka.png">
+              </div>
+              <div class="advantages__photo advantages__photo--small">
+                <img src="./kartinka 2.png">
+              </div>
+
+              <div class="advantages__badge">
+                <img src="./kartinka 5.png">
+              </div>
+
+              <div class="advantages__photo advantages__photo--small">
+                <img src="./kartinka 3.png">
+              </div>
+              <div class="advantages__photo advantages__photo--small">
+                <img src="./kartinka 4.png">
+              </div>
+            </div>
+
+            <div class="advantages__list">
+              <div class="advantages__item">
+                <div class="advantages__icon"></div>
+                <div>
+                  <h3>Медицинское обслуживание</h3>
+                  <p>Круглосуточное наблюдение и забота квалифицированного персонала.</p>
+                </div>
+              </div>
+
+              <div class="advantages__item">
+                <div class="advantages__icon"></div>
+                <div>
+                  <h3>Справедливые цены</h3>
+                  <p>Комфортные условия проживания и честные условия сотрудничества.</p>
+                </div>
+              </div>
+
+              <div class="advantages__item">
+                <div class="advantages__icon"></div>
+                <div>
+                  <h3>Забота и внимание к каждому</h3>
+                  <p>Индивидуальный подход к каждому постояльцу и тёплая атмосфера.</p>
+                </div>
+              </div>
+
+              <div class="advantages__item">
+                <div class="advantages__icon"></div>
+                <div>
+                  <h3>Уникальное расположение</h3>
+                  <p>Между живописным лесом и природой в тихом экологичном месте.</p>
+                </div>
+              </div>
+
+              <div class="advantages__item">
+                <div class="advantages__icon"></div>
+                <div>
+                  <h3>Новый и современный пансионат</h3>
+                  <p>Свежий ремонт, уютные комнаты и современное оборудование.</p>
+                </div>
+              </div>
+
+              <div class="advantages__item">
+                <div class="advantages__icon"></div>
+                <div>
+                  <h3>Окружение природой</h3>
+                  <p>Прогулочные зоны, зелёный двор и спокойная обстановка.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="impressions section">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2>Вы получите незабываемые впечатления в нашей резиденции</h2>
+            </div>
+            <a href="#" class="btn btn--green">Записаться на экскурсию</a>
+          </div>
 
-    <section class="advantages">
-      <div class="container">
-        <h2 class="section-title">
-          Мы предлагаем уютные комнаты с удобной мебелью <br>
-          и всем необходимым для комфортного проживания
-        </h2>
+          <div class="impressions__gallery">
+            <div class="impressions__item impressions__item--small">
+              <img src="#">
+            </div>
 
-        <div class="advantages__wrapper">
-          <div class="advantages__gallery">
-            <img src="#" alt="Фото 1">
-            <img src="#" alt="Фото 2">
-            <img src="#" alt="Фото 3">
-            <img src="#" alt="Фото 4">
+            <div class="impressions__item impressions__item--big">
+              <img src="#">
+            </div>
 
-            <div class="advantages__center-icon">
-              <img src="#" alt="Иконка">
+            <div class="impressions__item impressions__item--small">
+              <img src="#">
             </div>
           </div>
 
-          <div class="advantages__list">
-            <div class="advantages__item">
-              <span class="check"></span>
-              <div>
-                <h3>Медицинское обслуживание</h3>
-                <p>Регулярный контроль состояния здоровья и помощь персонала.</p>
+          <p class="impressions__caption">Уютные комнаты отдыха</p>
+        </div>
+      </section>
+      <section class="video section">
+        <div class="container">
+          <div class="video__box">
+            <img src="#">
+            <button class="video__play" type="button">
+              ▶
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="programs section" id="services">
+        <div class="container">
+          <div class="section-head section-head--center">
+            <h2>
+              Мы предлагаем нашим резидентам безопасную среду,<br />
+              медицинское сопровождение и интересный досуг
+            </h2>
+          </div>
+
+          <div class="programs__list">
+            <article class="program-card">
+              <div class="program-card__info">
+                <span class="program-card__label">программа</span>
+                <h3>ЛАЙТ</h3>
+
+                <ul>
+                  <li>Комфортное проживание</li>
+                  <li>Сбалансированное питание</li>
+                  <li>Медицинский контроль состояния</li>
+                  <li>Прогулки, общение, интересный досуг</li>
+                </ul>
+
+                <a href="#" class="btn btn--green btn--small">Забронировать</a>
+
+                <div class="program-card__prices">
+                  <div class="program-card__price">
+                    <span>Номер “Комфорт”</span>
+                    <strong>3 000 ₽/сутки</strong>
+                  </div>
+
+                  <div class="program-card__price">
+                    <span>Номер “Люкс”</span>
+                    <strong>5 000 ₽/сутки</strong>
+                  </div>
+                </div>
+              </div>
+
+              <div class="program-card__image">
+                <img src="#">
+              </div>
+            </article>
+
+            <article class="program-card">
+              <div class="program-card__info">
+                <span class="program-card__label">программа</span>
+                <h3>ИНТЕНСИВ</h3>
+
+                <ul>
+                  <li>Круглосуточный уход и наблюдение</li>
+                  <li>Поддержка маломобильных постояльцев</li>
+                  <li>Медицинские процедуры и контроль</li>
+                  <li>Персональное сопровождение и помощь</li>
+                </ul>
+
+                <a href="#" class="btn btn--green btn--small">Забронировать</a>
+
+                <div class="program-card__prices">
+                  <div class="program-card__price">
+                    <span>Номер “Комфорт”</span>
+                    <strong>6 000 ₽/сутки</strong>
+                  </div>
+
+                  <div class="program-card__price">
+                    <span>Номер “Люкс”</span>
+                    <strong>9 000 ₽/сутки</strong>
+                  </div>
+                </div>
+              </div>
+
+              <div class="program-card__image">
+                <img src="#">
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="specialists section" id="specialists">
+        <div class="container">
+          <div class="section-head section-head--center">
+            <h2>
+              Наши специалисты всегда готовы помочь<br />
+              и поддержать пожилых людей в любой ситуации
+            </h2>
+          </div>
+
+          <div class="specialists__list">
+            <article class="specialist-card">
+              <div class="specialist-card__image">
+                <img src="#">
+              </div>
+              <h3>Ирина Доброва</h3>
+              <p>Врач-невролог</p>
+              <a href="#">Смотреть подробнее</a>
+            </article>
+
+            <article class="specialist-card">
+              <div class="specialist-card__image">
+                <img src="#">
+              </div>
+              <h3>Мария Тимофеева</h3>
+              <p>Терапевт, геронтолог</p>
+              <a href="#">Смотреть подробнее</a>
+            </article>
+
+            <article class="specialist-card">
+              <div class="specialist-card__image">
+                <img src="#">
+              </div>
+              <h3>Сергей Кузнецов</h3>
+              <p>Врач-реабилитолог</p>
+              <a href="#">Смотреть подробнее</a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="contacts section" id="contacts">
+        <div class="container">
+          <div class="contacts__map">
+            <img class="contacts__map-bg" src="#">
+
+            <div class="contacts__card">
+              <h2>Запишитесь на экскурсию в нашу резиденцию</h2>
+
+              <div class="contacts__content">
+                <div class="contacts__form-side">
+                  <p>Заполните форму и мы вам перезвоним</p>
+
+                  <form class="form">
+                    <input type="text" placeholder="Имя" />
+                    <input type="text" placeholder="Номер телефона" />
+                    <button type="submit" class="btn btn--green">Записаться на экскурсию</button>
+                  </form>
+                </div>
+
+                <div class="contacts__info-side">
+                  <p>Или позвоните нам по телефону</p>
+                  <a href="tel:+74959777735">+7 (495) 977 77 35</a>
+
+                  <div class="contacts__socials">
+                    <a href="#">vk</a>
+                    <a href="#">tg</a>
+                    <a href="#">wa</a>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="advantages__item">
-              <span class="check"></span>
-              <div>
-                <h3>Справедливые цены</h3>
-                <p>Несколько вариантов проживания и программ пребывания.</p>
+            <div class="contacts__address">
+              <div class="contacts__mini-icon">
+                <img src="#">
               </div>
-            </div>
-
-            <div class="advantages__item">
-              <span class="check"></span>
-              <div>
-                <h3>Забота и внимание к каждому</h3>
-                <p>Индивидуальный подход и уважительное отношение к каждому.</p>
-              </div>
-            </div>
-
-            <div class="advantages__item">
-              <span class="check"></span>
-              <div>
-                <h3>Уникальное расположение</h3>
-                <p>Тихое место на природе со свежим воздухом и зеленью.</p>
-              </div>
-            </div>
-
-            <div class="advantages__item">
-              <span class="check"></span>
-              <div>
-                <h3>Новый и современный пансионат</h3>
-                <p>Уютный интерьер, современная мебель и удобные комнаты.</p>
-              </div>
-            </div>
-
-            <div class="advantages__item">
-              <span class="check"></span>
-              <div>
-                <h3>Окружение района</h3>
-                <p>Спокойная атмосфера, природа и приятная территория для прогулок.</p>
-              </div>
+              <p>Приходите к нам</p>
+              <span>Московская область, лесная зона</span>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    
+    </main>
+    <footer class="footer">
+      <div class="container footer__wrapper">
+        <div class="footer__left">
+          <img src="#">
+          <p>ООО “ЛЕСНАЯ УСАДЬБА”<br />Премиум резиденция для пожилых</p>
+        </div>
+
+        <nav class="footer__nav">
+          <a href="#about">О нас</a>
+          <a href="#services">Услуги</a>
+          <a href="#specialists">Специалисты</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+
+        <a class="footer__mail" href="mailto:info@example.ru">Написать: info@example.ru</a>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
